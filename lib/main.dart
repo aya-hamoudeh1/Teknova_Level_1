@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
                 border: Border.all(color: Colors.blue, width: 2),
               ),
               child: Text(
-                'fghbjn jjhkl; jhkds hjkl,,  kkjoijds   jjhijds fghbjn jjhkl; jhkds hjkl,,  kkjoijds   jjhijds ',
+                'In this section, we will learn how to use basic widgets such as text, containers, and images to build professional and interactive user interfaces.',
                 textAlign: .center,
                 style: TextStyle(
                   fontSize: 20,
@@ -56,10 +56,11 @@ class MyApp extends StatelessWidget {
 
             Row(
               mainAxisAlignment: .center,
-                children: [
-              Icon(Icons.star, color: Colors.orange),
-              Text("dfghjk")
-            ]),
+              children: [
+                Icon(Icons.star, color: Colors.orange),
+                Text("dfghjk"),
+              ],
+            ),
           ],
         ),
       ),
